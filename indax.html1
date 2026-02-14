@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>সাকিনা প্রাইভেট হেল্থ সার্ভিসেস সেন্টার</title>
+    <style>
+        body { margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f7f4; color: #333; line-height: 1.6; }
+        header { background-color: #2e7d32; color: #fff; padding: 15px; text-align: center; position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
+        header h2 { margin: 0; font-size: 1.1rem; }
+        nav { margin-top: 10px; }
+        nav a { color: #fff; text-decoration: none; margin: 0 5px; font-size: 0.8rem; background: rgba(255,255,255,0.2); padding: 6px 12px; border-radius: 20px; }
+        
+        .hero { 
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1584515159913-62160b8c9a18?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover; background-position: center;
+            text-align: center; padding: 100px 20px; color: #fff; 
+        }
+        .hero h1 { font-size: 1.8rem; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
+        .hero .cta { background-color: #d32f2f; color: #fff; padding: 12px 25px; border-radius: 50px; font-weight: bold; display: inline-block; margin-top: 15px; text-decoration: none; border: 2px solid #fff; transition: 0.3s; }
+        .hero .cta:hover { background-color: #b71c1c; transform: scale(1.05); }
+
+        section { padding: 40px 20px; max-width: 900px; margin: auto; }
+        h2 { color: #2e7d32; text-align: center; border-bottom: 2px solid #2e7d32; padding-bottom: 10px; margin-bottom: 30px; }
+
+        .services { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; }
+        .service-card { background: #fff; padding: 20px; border-radius: 10px; text-align: center; border-top: 4px solid #d32f2f; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: 0.3s; }
+        .service-card:hover { transform: translateY(-5px); }
+        .service-card h3 { font-size: 1rem; color: #333; margin: 0; }
+
+        .contact-box { background: #fff; padding: 25px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); margin-top: 20px; }
+        form input, form textarea { width: 100%; padding: 12px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 8px; box-sizing: border-box; font-size: 1rem; }
+        form button { width: 100%; background-color: #2e7d32; color: #fff; padding: 15px; border: none; border-radius: 8px; font-weight: bold; font-size: 1.1rem; cursor: pointer; transition: 0.3s; }
+        form button:hover { background-color: #1b5e20; }
+        
+        .whatsapp-btn { display: block; text-align: center; background: #25D366; color: white; padding: 15px; margin: 10px 0; border-radius: 8px; font-size: 1.1rem; font-weight: bold; text-decoration: none; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .call-btn { display: block; text-align: center; background: #d32f2f; color: white; padding: 15px; margin: 10px 0; border-radius: 8px; font-size: 1.1rem; font-weight: bold; text-decoration: none; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+
+        footer { background-color: #1b5e20; color: #fff; text-align: center; padding: 30px 20px; font-size: 0.8rem; margin-top: 50px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h2>সাকিনা প্রাইভেট হেল্থ সার্ভিসেস সেন্টার</h2>
+    <nav>
+        <a href="#home">হোম</a>
+        <a href="#about">সম্পর্কে</a>
+        <a href="#services">সেবা</a>
+        <a href="#contact">যোগাযোগ</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <h1>আপনার ঘরোয়া পরিবেশে দক্ষ চিকিৎসা সেবা</h1>
+    <p>পুঠিয়া, রাজশাহী। আমরা আছি আপনার পাশে সবসময়।</p>
+    <a href="tel:01836226452" class="cta">জরুরি প্রয়োজনে কল করুন</a>
+</section>
+
+<section id="about">
+    <h2>আমাদের সম্পর্কে</h2>
+    <p style="text-align: center; font-size: 1.1rem; color: #555;">সাকিনা প্রাইভেট হেল্থ সার্ভিসেস সেন্টার পুঠিয়ার একমাত্র নির্ভরযোগ্য প্রতিষ্ঠান যা বাড়িতে গিয়ে অভিজ্ঞ ডাক্তার ও নার্স দ্বারা চিকিৎসা সেবা প্রদান করে। আপনার সুস্থতাই আমাদের মূল লক্ষ্য।</p>
+</section>
+
+<section id="services">
+    <h2>আমাদের সেবাসমূহ</h2>
+    <div class="services">
+        <div class="service-card"><h3>টেলিমেডিসিন হোম সার্ভিস</h3></div>
+        <div class="service-card"><h3>নার্সিং কেয়ার হোম সার্ভিস</h3></div>
+        <div class="service-card"><h3>সিনিয়র সিটিজেন কেয়ার</h3></div>
+        <div class="service-card"><h3>মা ও শিশু হেলথ কেয়ার</h3></div>
+        <div class="service-card"><h3>মেডিসিন হোম ডেলিভারি</h3></div>
+        <div class="service-card"><h3>ব্লাড প্রেশার ও সুগার চেক</h3></div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>সরাসরি যোগাযোগ করুন</h2>
+    
+    <a href="tel:01836226452" class="call-btn">📞 কল করুন: 01836226452</a>
+    <a href="https://wa.me/8801836226452?text=আমি আপনাদের সেবা সম্পর্কে জানতে চাই" class="whatsapp-btn">💬 হোয়াটসঅ্যাপ মেসেজ দিন</a>
+
+    <div class="contact-box">
+        <h3 style="text-align: center; margin-bottom: 20px;">অনলাইনে বুকিং দিন</h3>
+        <form action="https://formspree.io/f/xbjnqpgj" method="POST"> 
+            <input type="text" name="Name" placeholder="আপনার নাম" required>
+            <input type="tel" name="Phone" placeholder="মোবাইল নম্বর" required>
+            <input type="text" name="Address" placeholder="আপনার এলাকা/ঠিকানা" required>
+            <textarea name="ServiceNeeded" placeholder="কোন সেবাটি প্রয়োজন বিস্তারিত লিখুন..." rows="4"></textarea>
+            <button type="submit">তথ্য জমা দিন</button>
+        </form>
+    </div>
+    
+    <div style="text-align: center; margin-top: 30px;">
+        <p>📍 <b>ঠিকানা:</b> উপজেলা পুঠিয়া, জেলা রাজশাহী</p>
+    </div>
+</section>
+
+<footer>
+    © 2026 সাকিনা প্রাইভেট হেল্থ সার্ভিসেস সেন্টার | পুঠিয়া, রাজশাহী<br>
+    স্বল্প খরচে উন্নত সেবা প্রদানই আমাদের অঙ্গীকার।
+</footer>
+
+</body>
+</html>
